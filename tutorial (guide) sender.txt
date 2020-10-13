@@ -1,0 +1,64 @@
+mkato Bcc sender v1.1
+
+Create User menu:
+1. Length => The length of the random word you want
+2. Type of random:
+     1. chara => for random words and numbers
+     2. number => for random numbers only
+3. Total => Many users who want to be created
+
+
+Existing Random Menu:
+
+## type_mode_length ## => format for random function
+type:
+1. mix => for random numbers & letters
+2. number => for random numbers
+3. text => for random letters
+
+mode:
+1. upper => makes all letters capitalized
+2. lower => makes all letters lower
+3. normal => create random capital / lowercase letters
+
+length => random length
+
+
+example:
+## text_normal_4 ## => will generate: KsnP
+## mix_normal_6 ## => will result in: K4n2Pl
+
+random above already supports subject, letter, to, attachname, header!
+
+
+## double ## => random useragent (LETTER ONLY)
+## randip ## => random ip address (LETTER ONLY)
+## randcountry ## => random country (LETTER ONLY)
+## randos ## => random operating system (LETTER ONLY)
+## device ## => random device (LETTER ONLY)
+## date ## => date version 1 (SUBJECT & LETTER)
+## date2 ## => date version 2 (SUBJECT & LETTER)
+## date3 ## => date version 3 (SUBJECT & LETTER)
+## date4 ## => date version 3 (SUBJECT & LETTER)
+
+
+Special:
+
+1. special random for encrypt letter:
+## mix_normal_10 ## => sample random letter for letter (suitable for creating random letter)
+function - can random words without the same (randomize all)
+
+create random letter:
+<FONT style = "FONT-SIZE: 0px; COLOR: transparent"> ## mix_normal_10 ## </FONT>
+
+paste the code into the words in the letter for example:
+Your Apple ID -> Your Ap <FONT style = "FONT-SIZE: 0px; COLOR: transparent"> ## mix_normal_10 ## </FONT> ple <FONT style = "FONT-SIZE: 0px; COLOR: transparent"> # # numstr ## </FONT> ID
+
+2. special random link:
+1. fill in the link in the config
+2.Change the dropter link to ## link ##
+
+
+3.custom header:
+format: header | dataheader
+example: x-senderip | 127.0.0.1
